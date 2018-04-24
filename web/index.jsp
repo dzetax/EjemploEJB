@@ -18,13 +18,13 @@
 <div class="row">
     <div class="col s6 offset-s3">
         <div class="card-panel">
-            <p class="center-align">Ingresar Productos</p>
+            <p class="center-align"><span class="blue-text text-darken-2">Ingresar Productos</span></p>
             <form action="control.do" method="post">
-            <div class="input-field col s6">
+            <div class="input-field">
                 <input id="nombre" name="nombre" type="text" class="validate">
                 <label for="nombre">Nombre:</label>
             </div>
-            <div class="input-field col s6">
+            <div class="input-field">
                 <input id="precio" name="precio" type="text" class="validate">
                 <label for="precio">Precio:</label>
             </div>
